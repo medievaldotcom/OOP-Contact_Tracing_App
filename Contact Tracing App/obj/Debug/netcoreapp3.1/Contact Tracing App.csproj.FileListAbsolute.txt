@@ -1,0 +1,31 @@
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.exe
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.deps.json
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.runtimeconfig.json
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.runtimeconfig.dev.json
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.dll
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.pdb
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.csproj.AssemblyReference.cache
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact_Tracing_App.Form1.resources
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.csproj.GenerateResource.cache
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.AssemblyInfoInputs.cache
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.AssemblyInfo.cs
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.csproj.CoreCompileInputs.cache
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.dll
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.pdb
+C:\Users\Nheil\Documents\OOP_CODE_CALCULATOR\Project\CTA\Contact Tracing App\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.exe
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.deps.json
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.runtimeconfig.json
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.dll
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\bin\Debug\netcoreapp3.1\Contact Tracing App.pdb
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact_Tracing_App.Form1.resources
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.dll
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.pdb
+C:\Users\Administrator\Desktop\Contact-Tracing-App-main\Contact Tracing App\obj\Debug\netcoreapp3.1\Contact Tracing App.genruntimeconfig.cache
