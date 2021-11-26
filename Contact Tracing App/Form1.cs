@@ -47,6 +47,7 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(Number.Text);
             outputFile.WriteLine("****************************");
             outputFile.Close();
+            MessageBox.Show("Submitted", date, MessageBoxButtons.OK, MessageBoxIcon.Information);
             // Your Code for submit 
 
         }

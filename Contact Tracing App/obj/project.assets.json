@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Contact-Tracing-App-main\\Contact Tracing App\\Contact Tracing App.csproj",
+      "projectUniqueName": "D:\\Github\\Repository\\OOP-Contact_Tracing_App\\Contact Tracing App\\Contact Tracing App.csproj",
       "projectName": "Contact Tracing App",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Contact-Tracing-App-main\\Contact Tracing App\\Contact Tracing App.csproj",
+      "projectPath": "D:\\Github\\Repository\\OOP-Contact_Tracing_App\\Contact Tracing App\\Contact Tracing App.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Contact-Tracing-App-main\\Contact Tracing App\\obj\\",
+      "outputPath": "D:\\Github\\Repository\\OOP-Contact_Tracing_App\\Contact Tracing App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
