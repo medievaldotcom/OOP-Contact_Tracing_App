@@ -36,7 +36,10 @@ namespace Contact_Tracing_App
         private void Submit_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;
-            String date = File.GetCreationTime("output.txt").ToLongDateString();
+           
+            String date = string.Format("{0:yyyy-MM-dd}.txt",
+           DateTime.Now);
+        
             outputFile = File.AppendText(date);
             outputFile.WriteLine(FirstName.Text);
             outputFile.WriteLine(Surname.Text);
@@ -45,7 +48,7 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(email.Text);
             outputFile.WriteLine(address.Text);
             outputFile.WriteLine(Number.Text);
-            outputFile.WriteLine("****************************");
+            outputFile.WriteLine("==============================");
             outputFile.Close();
             MessageBox.Show("Submitted", date, MessageBoxButtons.OK, MessageBoxIcon.Information);
             // Your Code for submit 
