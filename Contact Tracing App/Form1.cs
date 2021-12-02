@@ -37,11 +37,12 @@ namespace Contact_Tracing_App
         private void Submit_Click(object sender, EventArgs e)
         {
             String apprecords = "records.txt";
-           
+
             StreamWriter outputFile = File.AppendText(apprecords);
-            
-            String date = string.Format("{0:yyyy-MM-dd}", DateTime.Now);
-          
+
+            String date = string.Format("{0:yyyy-MM-dd-hh-mm-tt}", DateTime.Now);
+
+       
             outputFile.WriteLine(date);
             outputFile.WriteLine(FirstName.Text);
             outputFile.WriteLine(Surname.Text);
@@ -52,23 +53,16 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(Number.Text);
             outputFile.WriteLine("==============================");
             outputFile.Close();
-         
-            MessageBox.Show("Submitted "+ date, "Contract Traced", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //  Code for submit 
-
-
+            formreset();
+                MessageBox.Show("Submitted " + date, "Contact Traced", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //  Code for submit 
+          
 
 
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void formreset()
         {
-
-        }
-
-        private void Clear_Click(object sender, EventArgs e)
-        {
-            FirstName.Text = "First Name";
+           FirstName.Text = "First Name";
             Surname.Text = "Surname";
             MI.Text = "M.I";
             Temperature.Text = "37.5";
@@ -82,7 +76,23 @@ namespace Contact_Tracing_App
             email.ForeColor = Color.Silver;
             address.ForeColor = Color.Silver;
             Number.ForeColor = Color.Silver;
-        
+        }
+        private void fieldisempty()
+        {
+            if (FirstName.Text == "")
+            {
+                FirstName.BackColor = Color.Red;
+            }
+
+        }
+            private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            formreset();
         }
          
             
@@ -233,7 +243,7 @@ namespace Contact_Tracing_App
         {
             String apprecords = "records.txt";
             
-            string readfile = File.ReadAllText(apprecords);
+                string readfile = File.ReadAllText(apprecords);
             txtboxviewr.Text = readfile;
         }
 
