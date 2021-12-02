@@ -43,6 +43,9 @@ namespace Contact_Tracing_App
             this.Submit = new System.Windows.Forms.Button();
             this.address = new System.Windows.Forms.TextBox();
             this.Number = new System.Windows.Forms.TextBox();
+            this.txtboxviewr = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -166,7 +169,7 @@ namespace Contact_Tracing_App
             // 
             // Clear
             // 
-            this.Clear.Location = new System.Drawing.Point(530, 175);
+            this.Clear.Location = new System.Drawing.Point(780, 20);
             this.Clear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(113, 69);
@@ -177,7 +180,7 @@ namespace Contact_Tracing_App
             // 
             // Submit
             // 
-            this.Submit.Location = new System.Drawing.Point(649, 175);
+            this.Submit.Location = new System.Drawing.Point(780, 96);
             this.Submit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Submit.Name = "Submit";
             this.Submit.Size = new System.Drawing.Size(113, 69);
@@ -214,11 +217,44 @@ namespace Contact_Tracing_App
             this.Number.Enter += new System.EventHandler(this.textBox7_Enter);
             this.Number.Leave += new System.EventHandler(this.textBox7_Leave);
             // 
+            // txtboxviewr
+            // 
+            this.txtboxviewr.Location = new System.Drawing.Point(17, 175);
+            this.txtboxviewr.Name = "txtboxviewr";
+            this.txtboxviewr.Size = new System.Drawing.Size(876, 246);
+            this.txtboxviewr.TabIndex = 14;
+            this.txtboxviewr.Text = "";
+            this.txtboxviewr.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(17, 427);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(165, 29);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "View Records";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(188, 427);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(167, 28);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Clear Records";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(774, 262);
+            this.ClientSize = new System.Drawing.Size(912, 474);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtboxviewr);
             this.Controls.Add(this.Number);
             this.Controls.Add(this.address);
             this.Controls.Add(this.Submit);
@@ -258,6 +294,9 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Button Submit;
         private System.Windows.Forms.TextBox address;
         private System.Windows.Forms.TextBox Number;
+        private System.Windows.Forms.RichTextBox txtboxviewr;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

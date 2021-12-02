@@ -1,8 +1,0 @@
-First Name
-Surname
-M.I
-37.5
-Username@gmail.com
-House no., Street, Brgy, City
-639XXXXXXXXX
-****************************

@@ -16,6 +16,7 @@ namespace Contact_Tracing_App
         public Form1()
         {
             InitializeComponent();
+         
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -32,15 +33,16 @@ namespace Contact_Tracing_App
         {
 
         }
-     
+
         private void Submit_Click(object sender, EventArgs e)
         {
-            StreamWriter outputFile;
+            String apprecords = "records.txt";
            
-            String date = string.Format("{0:yyyy-MM-dd}.txt",
-           DateTime.Now);
-        
-            outputFile = File.AppendText(date);
+            StreamWriter outputFile = File.AppendText(apprecords);
+            
+            String date = string.Format("{0:yyyy-MM-dd}", DateTime.Now);
+          
+            outputFile.WriteLine(date);
             outputFile.WriteLine(FirstName.Text);
             outputFile.WriteLine(Surname.Text);
             outputFile.WriteLine(MI.Text);
@@ -50,8 +52,12 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(Number.Text);
             outputFile.WriteLine("==============================");
             outputFile.Close();
-            MessageBox.Show("Submitted", date, MessageBoxButtons.OK, MessageBoxIcon.Information);
-            // Your Code for submit 
+         
+            MessageBox.Show("Submitted "+ date, "Contract Traced", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //  Code for submit 
+
+
+
 
         }
 
@@ -76,9 +82,13 @@ namespace Contact_Tracing_App
             email.ForeColor = Color.Silver;
             address.ForeColor = Color.Silver;
             Number.ForeColor = Color.Silver;
+        
         }
+         
+            
+        
 
-        private void Form1_Load(object sender, EventArgs e)
+    private void Form1_Load(object sender, EventArgs e)
         {
 
         }
@@ -212,6 +222,24 @@ namespace Contact_Tracing_App
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String apprecords = "records.txt";
+            
+            string readfile = File.ReadAllText(apprecords);
+            txtboxviewr.Text = readfile;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtboxviewr.Clear();
         }
     }
 }
